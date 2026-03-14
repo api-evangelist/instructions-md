@@ -1,0 +1,14 @@
+name: .instructions.md
+description: File-scoped custom instruction files for GitHub Copilot and VS Code,
+  using applyTo patterns to target specific file types or tasks with tailored AI guidance.
+url: ''
+tags:
+- AI Copilot
+- GitHub Copilot
+- VS Code
+- Developer Workflow
+- Coding Standards
+created: '2025'
+modified: '2025'
+apis: []
+common: []
