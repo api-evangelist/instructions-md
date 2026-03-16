@@ -1,14 +1,24 @@
-name: .instructions.md
-description: File-scoped custom instruction files for GitHub Copilot and VS Code,
-  using applyTo patterns to target specific file types or tasks with tailored AI guidance.
-url: ''
+aid: instructions-md
+name: instructions.md
+description: >-
+  File-scoped custom instruction files for GitHub Copilot and VS Code, using
+  applyTo patterns to target specific file types or tasks with tailored AI
+  guidance. These markdown-based instruction files allow developers to provide
+  context-specific guidance for AI coding assistants.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- AI Copilot
-- GitHub Copilot
-- VS Code
-- Developer Workflow
-- Coding Standards
-created: '2025'
-modified: '2025'
+  - AI Copilot
+  - GitHub Copilot
+  - VS Code
+  - Developer Workflow
+  - Coding Standards
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/instructions-md/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
