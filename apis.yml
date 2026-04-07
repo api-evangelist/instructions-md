@@ -1,5 +1,5 @@
 aid: instructions-md
-name: instructions.md
+name: Instructions.md
 description: >-
   File-scoped custom instruction files for GitHub Copilot and VS Code, using
   applyTo patterns to target specific file types or tasks with tailored AI
