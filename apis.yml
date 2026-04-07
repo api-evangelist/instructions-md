@@ -9,10 +9,10 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - AI Copilot
+  - Coding Standards
+  - Developer Workflow
   - GitHub Copilot
   - VS Code
-  - Developer Workflow
-  - Coding Standards
 url: >-
   https://raw.githubusercontent.com/api-evangelist/instructions-md/refs/heads/main/apis.yml
 created: '2025-01-01'
