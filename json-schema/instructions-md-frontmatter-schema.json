@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/instructions-md/refs/heads/main/json-schema/instructions-md-frontmatter-schema.json",
+  "title": "Instructions.md Frontmatter Schema",
+  "description": "JSON Schema for the YAML frontmatter of GitHub Copilot and VS Code .instructions.md files. These file-scoped custom instruction files use applyTo glob patterns to target specific file types or tasks with tailored AI guidance.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Display name shown in the UI. Defaults to the file name when omitted."
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description shown on hover in the Chat view."
+    },
+    "applyTo": {
+      "type": "string",
+      "description": "Glob pattern (or comma-separated list of patterns) that defines which files the instructions apply to automatically, relative to the workspace root. Use '**' to apply to all files. If omitted, the instructions are not applied automatically and must be manually attached to a chat request.",
+      "examples": [
+        "**",
+        "**/*.py",
+        "**/*.ts,**/*.tsx",
+        "docs/**/*.md"
+      ]
+    }
+  }
+}

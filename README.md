@@ -16,7 +16,12 @@ File-scoped custom instruction files for GitHub Copilot and VS Code, using apply
 ## Timestamps
 
 - **Created:** 2025-01-01 
-- **Modified:** 2026-03-16 
+- **Modified:** 2026-04-28 
+
+## Common Properties
+
+- [Documentation](https://code.visualstudio.com/docs/copilot/customization/custom-instructions)
+- [JSONSchema](json-schema/instructions-md-frontmatter-schema.json)
 
 ## Maintainers
 
