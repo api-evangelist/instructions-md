@@ -1,4 +1,4 @@
-# instructions.md (instructions-md)
+# Instructions.md
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,30 +66,46 @@
 
 File-scoped custom instruction files for GitHub Copilot and VS Code, using applyTo patterns to target specific file types or tasks with tailored AI guidance. These markdown-based instruction files allow developers to provide context-specific guidance for AI coding assistants.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/instructions-md/refs/heads/main/apis.yml)
+**Areas:** AI Copilot · Coding Standards · Developer Workflow · GitHub Copilot · VS Code
 
-## Scope
+## Instructions.md on APIs.io
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+Everything profiled for Instructions.md is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/instructions-md/](https://apis.io/providers/instructions-md/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### Published properties
 
- - AI Copilot, GitHub Copilot, VS Code, Developer Workflow, Coding Standards
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### JSON Schema (1)
 
-- **Created:** 2025-01-01 
-- **Modified:** 2026-04-28 
+The data models the API reads and writes.
 
-## Common Properties
+- [Instructions.md Frontmatter Schema](https://apis.io/schemas/instructions-md/instructions-md-frontmatter/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Instructions.md — jsonschema rules](https://apis.io/rules/instructions-md/instructions-md-jsonschema-spectral-rules/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Documentation](https://code.visualstudio.com/docs/copilot/customization/custom-instructions)
-- [JSONSchema](json-schema/instructions-md-frontmatter-schema.json)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+Not yet rated. See [apis.io/providers/instructions-md/](https://apis.io/providers/instructions-md/).
 
-**Email:** kin@apievangelist.com
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Instructions.md: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/instructions-md/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
